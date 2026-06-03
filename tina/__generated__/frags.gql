@@ -1,0 +1,69 @@
+fragment SettingsParts on Settings {
+  __typename
+  phone
+  tg_orders
+  tg_channel
+  avito_url
+  address
+  hours_label
+  hours_open
+  hours_close
+  hero {
+    __typename
+    eyebrow
+    title
+    lead
+  }
+  stats {
+    __typename
+    number
+    label
+  }
+  tradein_prices {
+    __typename
+    ps5
+    ps4
+    xboxsx
+    switch
+    ps3
+  }
+  shop_photos
+}
+
+fragment CategoryParts on Category {
+  __typename
+  title
+  count
+  badge
+  url
+  image
+  order
+}
+
+fragment ServiceParts on Service {
+  __typename
+  title
+  description
+  cta_label
+  cta_url
+  order
+}
+
+fragment DiscParts on Disc {
+  __typename
+  title
+  platform
+  price
+  release
+  status
+  meta
+  image
+  active
+  order
+}
+
+fragment PageParts on Page {
+  __typename
+  title
+  body
+}
