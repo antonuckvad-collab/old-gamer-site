@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env.local
+.env*.local
+.DS_Store
+tina/__generated__/*
+!tina/__generated__/_graphql.json
+!tina/__generated__/_schema.json
+!tina/__generated__/frags.gql
+!tina/__generated__/queries.gql
+!tina/__generated__/schema.gql
